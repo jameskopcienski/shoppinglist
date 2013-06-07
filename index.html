@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="jquery-1.10.0.min.js"></script>
+    <script src="script.js"></script>
+    <title>Shopping List</title>
+  </head>
+  
+  <body>
+    
+    <div id='container'>
+      
+      <h1>Shopping List</h1>
+      
+      <div id='editList'>
+                
+        <form id='editForm'>
+          <label>Add new item:</label>
+          <input id='addItem' type='text'>
+          <input id='removeItem' type='button' value='Remove item'>
+        </form>
+        
+      </div>
+      
+        <ul id='itemList'>
+          
+          <li>
+            <form>
+              <input class='check' type='checkbox'><span class='notChecked'>Item 1</span>
+            </form>
+          </li>
+          
+          <li>
+            <form>
+              <input class='check' type='checkbox' checked=true><span class='checked'>Item 2</span>
+            </form>
+          </li>
+          
+        </ul>
+        
+    </div>
+    
+  </body>
+  
+</html>
