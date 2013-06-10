@@ -18,8 +18,9 @@
                 
         <form id='editForm'>
           <label>Add new item:</label>
-          <input id='addItem' type='text'>
-          <input id='removeItem' type='button' value='Remove item'>
+          <input id='newItem' type='text'>
+          <input id='addItem' class='button' type='submit' value='Add item'>
+          <input id='removeItem' class='button' type='submit' value='Remove item'>
         </form>
         
       </div>
@@ -28,13 +29,13 @@
           
           <li>
             <form>
-              <input class='check' type='checkbox'><span class='notChecked'>Item 1</span>
+              <input name='listItem' type='checkbox'><span>Item 1</span>
             </form>
           </li>
           
           <li>
             <form>
-              <input class='check' type='checkbox' checked=true><span class='checked'>Item 2</span>
+              <input name='listItem' type='checkbox'><span>Item 2</span>
             </form>
           </li>
           

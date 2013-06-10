@@ -78,16 +78,19 @@ h1 {
   font-size: 18px;	
 }
 
-#addItem {
+.button {
+	background-color: #edc471;
+	border: 1px solid #72500b;
+	border-radius: 3px;
+}
+
+#newItem {
 	height: 20px;
 	width: 250px;
 }
 
 #removeItem {
 	float: right;
-	background-color: #edc471;
-	border: 1px solid #72500b;
-	border-radius: 3px;
 }
 
 #itemList {
@@ -97,7 +100,7 @@ h1 {
 #itemList li {
 	background-color: #edc471;
 	border: 2px solid #72500b;
-	border-radius: 20px;
+	border-radius: 5px;
 	padding: 10px 5px;
 	margin-top: 10px;
 	text-align: left;
