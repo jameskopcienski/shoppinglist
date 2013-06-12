@@ -32,6 +32,5 @@ $(document).ready(function() {
  * -- Need to use delegated event (.on) instead --
   $('.listItem').change(function() {
     $(this).parent().toggleClass('checked');
-    console.log("change");
   });
 */
